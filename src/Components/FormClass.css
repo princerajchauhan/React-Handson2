@@ -59,6 +59,12 @@ button {
     }
 }
 
+@media screen and (max-width: 350px) {
+    h1{
+        color: blue;
+    }
+}
+
 @media screen and (max-width: 300px) {
     h1 {
         font-size: 20px;
