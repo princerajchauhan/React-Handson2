@@ -73,12 +73,13 @@ button {
     label {
         font-size: 19px;
         float: left;
-        margin-left: 32px;
+        margin-left: 20px;
     }
     
     input {
         border-radius: 20px;
         font-size: 14px;
+        margin-top: -5px;
     }
 
     #Element {
