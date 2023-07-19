@@ -12,7 +12,7 @@ class FormClass extends Component {
 
     clickHandle = (event) => {
         this.setState({ [event.target.name]: event.target.value })
-        console.log(event.target.name, event.target.valuet)
+        // console.log(event.target.name, event.target.value)
     }
 
     clickHandler = (event) => {
@@ -25,7 +25,7 @@ class FormClass extends Component {
 
         this.state.EmpData.push(newOnj)
         this.setState({ EmpData: this.state.EmpData, Name: '', Dept: '', Rat: '' })
-        console.log(this.state.EmpData)
+        // console.log(this.state.EmpData)
     }
 
     render() {
@@ -54,7 +54,9 @@ class FormClass extends Component {
                         this.state.EmpData.map((element, index) => {
                             return (
                                 <div key={index} id="elementData">
-                                    Name : {element.Name} | Department : {element.Dept} | Rating : {element.Rat}
+                                    <span>Name : {element.Name} |</span> 
+                                    <span>Department : {element.Dept} |</span> 
+                                    <span>Rating : {element.Rat}</span>
                                 </div>
                             )
                         })

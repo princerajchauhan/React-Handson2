@@ -1,12 +1,10 @@
-
-
 body {
     min-height: 100vh;
     background: linear-gradient(rgb(140, 209, 220) 0%, rgb(232, 198, 198) 25%, rgb(229, 171, 171) 50%, rgb(232, 198, 198) 75%, rgba(140, 209, 220) 100%);
     background-repeat: no-repeat;
 }
 
-form{
+form {
     margin-top: 30px;
 }
 
@@ -50,4 +48,37 @@ button {
     margin: 20px;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+/* ****************************** RESPONSIVE ****************************** */
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    input {
+        padding: 10px 5px;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+
+    #Element {
+        width: 95%;
+        grid-template-columns: 98%;
+    }
+    #elementData {
+        padding: 16px 5px;
+        border-radius: 15px;
+        margin: 15px 5px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
 }
