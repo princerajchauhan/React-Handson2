@@ -53,6 +53,12 @@ button {
 
 /* ****************************** RESPONSIVE ****************************** */
 
+@media screen and (max-width: 400px) {
+    h1{
+        color: red;
+    }
+}
+
 @media screen and (max-width: 300px) {
     h1 {
         font-size: 20px;
@@ -79,6 +85,13 @@ button {
         margin: 15px 5px;
         font-size: 15px;
         font-weight: 300;
+    }
+    button {
+        margin-top: 20px;
+        border-radius: 30px;
+        padding: 12px 25vw;
+        font-weight: 700;
+        font-size: 18px;
     }
 
 }
